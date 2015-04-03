@@ -30,6 +30,7 @@
 		ABFFC2961ACE366500136F78 /* GLFListData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2951ACE366500136F78 /* GLFListData.m */; };
 		ABFFC2991ACE3FE300136F78 /* GLFListFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */; };
 		ABFFC29D1ACE56F200136F78 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC29C1ACE56F200136F78 /* statuses.plist */; };
+		ABFFC2A01ACE748700136F78 /* GLFListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC29F1ACE748700136F78 /* GLFListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		ABFFC2971ACE3FE300136F78 /* GLFListFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFListFrame.h; sourceTree = "<group>"; };
 		ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFListFrame.m; sourceTree = "<group>"; };
 		ABFFC29C1ACE56F200136F78 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		ABFFC29E1ACE748700136F78 /* GLFListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFListTableViewCell.h; sourceTree = "<group>"; };
+		ABFFC29F1ACE748700136F78 /* GLFListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				ABFFC2951ACE366500136F78 /* GLFListData.m */,
 				ABFFC2971ACE3FE300136F78 /* GLFListFrame.h */,
 				ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */,
+				ABFFC29E1ACE748700136F78 /* GLFListTableViewCell.h */,
+				ABFFC29F1ACE748700136F78 /* GLFListTableViewCell.m */,
 				AB7331661ACD586F001AA6E7 /* Supporting Files */,
 			);
 			path = ScanList;
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB73316C1ACD586F001AA6E7 /* AppDelegate.m in Sources */,
+				ABFFC2A01ACE748700136F78 /* GLFListTableViewCell.m in Sources */,
 				ABFFC2991ACE3FE300136F78 /* GLFListFrame.m in Sources */,
 				AB73316F1ACD586F001AA6E7 /* ScanList.xcdatamodeld in Sources */,
 				ABFFC2791ACE327A00136F78 /* GLFTableViewController.m in Sources */,
