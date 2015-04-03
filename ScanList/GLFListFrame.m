@@ -55,7 +55,7 @@
     
     self.pictureFrame = CGRectMake(vipViewX, vipViewY, vipViewWidth, vipViewHeight);
     
-    //set size of text
+    //set size of cell
     if (listData.text) {
         //include text
         
