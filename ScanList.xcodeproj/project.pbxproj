@@ -16,7 +16,6 @@
 		AB73317A1ACD586F001AA6E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7331781ACD586F001AA6E7 /* LaunchScreen.xib */; };
 		AB7331861ACD586F001AA6E7 /* ScanListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7331851ACD586F001AA6E7 /* ScanListTests.m */; };
 		ABFFC2791ACE327A00136F78 /* GLFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2781ACE327A00136F78 /* GLFTableViewController.m */; };
-		ABFFC27B1ACE357900136F78 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27A1ACE357900136F78 /* statuses.plist */; };
 		ABFFC2891ACE359C00136F78 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27D1ACE359C00136F78 /* 1.jpeg */; };
 		ABFFC28A1ACE359C00136F78 /* 1516159990.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27E1ACE359C00136F78 /* 1516159990.jpeg */; };
 		ABFFC28B1ACE359C00136F78 /* 238221586.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27F1ACE359C00136F78 /* 238221586.jpeg */; };
@@ -30,6 +29,7 @@
 		ABFFC2931ACE359C00136F78 /* 926680527.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC2881ACE359C00136F78 /* 926680527.jpeg */; };
 		ABFFC2961ACE366500136F78 /* GLFListData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2951ACE366500136F78 /* GLFListData.m */; };
 		ABFFC2991ACE3FE300136F78 /* GLFListFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */; };
+		ABFFC29D1ACE56F200136F78 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC29C1ACE56F200136F78 /* statuses.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,6 @@
 		AB7331851ACD586F001AA6E7 /* ScanListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanListTests.m; sourceTree = "<group>"; };
 		ABFFC2771ACE327A00136F78 /* GLFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFTableViewController.h; sourceTree = "<group>"; };
 		ABFFC2781ACE327A00136F78 /* GLFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFTableViewController.m; sourceTree = "<group>"; };
-		ABFFC27A1ACE357900136F78 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
 		ABFFC27D1ACE359C00136F78 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		ABFFC27E1ACE359C00136F78 /* 1516159990.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1516159990.jpeg; sourceTree = "<group>"; };
 		ABFFC27F1ACE359C00136F78 /* 238221586.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 238221586.jpeg; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		ABFFC2951ACE366500136F78 /* GLFListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFListData.m; sourceTree = "<group>"; };
 		ABFFC2971ACE3FE300136F78 /* GLFListFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFListFrame.h; sourceTree = "<group>"; };
 		ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFListFrame.m; sourceTree = "<group>"; };
+		ABFFC29C1ACE56F200136F78 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +140,8 @@
 			children = (
 				ABFFC27C1ACE359C00136F78 /* icon */,
 				ABFFC2831ACE359C00136F78 /* image */,
-				ABFFC27A1ACE357900136F78 /* statuses.plist */,
 				AB7331671ACD586F001AA6E7 /* Info.plist */,
+				ABFFC29C1ACE56F200136F78 /* statuses.plist */,
 				AB7331681ACD586F001AA6E7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -272,12 +272,12 @@
 			files = (
 				ABFFC2931ACE359C00136F78 /* 926680527.jpeg in Resources */,
 				ABFFC2901ACE359C00136F78 /* 4934348604.jpeg in Resources */,
+				ABFFC29D1ACE56F200136F78 /* statuses.plist in Resources */,
 				ABFFC28F1ACE359C00136F78 /* 3461756566.jpeg in Resources */,
 				ABFFC2891ACE359C00136F78 /* 1.jpeg in Resources */,
 				ABFFC28B1ACE359C00136F78 /* 238221586.jpeg in Resources */,
 				ABFFC28C1ACE359C00136F78 /* 424324.jpeg in Resources */,
 				ABFFC28A1ACE359C00136F78 /* 1516159990.jpeg in Resources */,
-				ABFFC27B1ACE357900136F78 /* statuses.plist in Resources */,
 				ABFFC2921ACE359C00136F78 /* 6289891986.jpeg in Resources */,
 				AB7331751ACD586F001AA6E7 /* Main.storyboard in Resources */,
 				ABFFC2911ACE359C00136F78 /* 603564546.jpeg in Resources */,
