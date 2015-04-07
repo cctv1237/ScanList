@@ -53,7 +53,7 @@
     CGFloat vipViewX = CGRectGetMidX(self.nameFrame) - vipViewWidth - padding;
     CGFloat vipViewY = nameViewY;
     
-    self.pictureFrame = CGRectMake(vipViewX, vipViewY, vipViewWidth, vipViewHeight);
+    self.vipFrame = CGRectMake(vipViewX, vipViewY, vipViewWidth, vipViewHeight);
     
     //set size of cell
     if (listData.text) {

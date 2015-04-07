@@ -19,10 +19,33 @@
 
 @implementation GLFTableViewController
 
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    return self.stausFrame.count;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    //set cell value form cell
+    GLFListTableViewCell *cell = [GLFListTableViewCell cellWithTableView:tableView];
+    // Configure the cell...
+    cell.listFrame = self.stausFrame[indexPath.row];
+    
+    return cell;
+}
+
+
 #pragma mark - Lazy Loading
 
 - (NSArray *)stausFrame{
-    NSLog(@"Lazy Loading");
+    //NSLog(@"Lazy Loading");
     if (_stausFrame == nil) {
         NSString *fullPath = [[NSBundle mainBundle] pathForResource:@"statuses.plist" ofType:nil];
         NSArray *dictArray = [NSArray arrayWithContentsOfFile:fullPath];
@@ -53,27 +76,6 @@
     
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    // Return the number of sections.
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
-    return self.stausFrame.count;
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //set cell value form cell
-    GLFListTableViewCell *cell = [GLFListTableViewCell cellWithTableView:tableView];
-    // Configure the cell...
-    cell.listFrame = self.stausFrame[indexPath.row];
-    
-    return cell;
-}
 
 
 
