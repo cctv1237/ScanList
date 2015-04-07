@@ -113,6 +113,7 @@
     //set name
     self.nameLable.text = listData.name;
     //set vip
+    self.vipView.image = [UIImage imageNamed:@"vip"];
     if (listData.vip) {
         self.nameLable.textColor = [UIColor redColor];
         self.vipView.hidden = NO;
