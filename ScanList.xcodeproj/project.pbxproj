@@ -15,6 +15,7 @@
 		AB7331771ACD586F001AA6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7331761ACD586F001AA6E7 /* Images.xcassets */; };
 		AB73317A1ACD586F001AA6E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7331781ACD586F001AA6E7 /* LaunchScreen.xib */; };
 		AB7331861ACD586F001AA6E7 /* ScanListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7331851ACD586F001AA6E7 /* ScanListTests.m */; };
+		AB9C07051AD38AA90046072B /* 926680527.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9C07041AD38AA90046072B /* 926680527.jpg */; };
 		ABFFC2791ACE327A00136F78 /* GLFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2781ACE327A00136F78 /* GLFTableViewController.m */; };
 		ABFFC2891ACE359C00136F78 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27D1ACE359C00136F78 /* 1.jpeg */; };
 		ABFFC28A1ACE359C00136F78 /* 1516159990.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC27E1ACE359C00136F78 /* 1516159990.jpeg */; };
@@ -26,7 +27,6 @@
 		ABFFC2901ACE359C00136F78 /* 4934348604.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC2851ACE359C00136F78 /* 4934348604.jpeg */; };
 		ABFFC2911ACE359C00136F78 /* 603564546.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC2861ACE359C00136F78 /* 603564546.jpeg */; };
 		ABFFC2921ACE359C00136F78 /* 6289891986.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC2871ACE359C00136F78 /* 6289891986.jpeg */; };
-		ABFFC2931ACE359C00136F78 /* 926680527.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC2881ACE359C00136F78 /* 926680527.jpeg */; };
 		ABFFC2961ACE366500136F78 /* GLFListData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2951ACE366500136F78 /* GLFListData.m */; };
 		ABFFC2991ACE3FE300136F78 /* GLFListFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC2981ACE3FE300136F78 /* GLFListFrame.m */; };
 		ABFFC29D1ACE56F200136F78 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABFFC29C1ACE56F200136F78 /* statuses.plist */; };
@@ -58,6 +58,7 @@
 		AB73317F1ACD586F001AA6E7 /* ScanListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7331841ACD586F001AA6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB7331851ACD586F001AA6E7 /* ScanListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanListTests.m; sourceTree = "<group>"; };
+		AB9C07041AD38AA90046072B /* 926680527.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 926680527.jpg; sourceTree = "<group>"; };
 		ABFFC2771ACE327A00136F78 /* GLFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFTableViewController.h; sourceTree = "<group>"; };
 		ABFFC2781ACE327A00136F78 /* GLFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFTableViewController.m; sourceTree = "<group>"; };
 		ABFFC27D1ACE359C00136F78 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		ABFFC2851ACE359C00136F78 /* 4934348604.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4934348604.jpeg; sourceTree = "<group>"; };
 		ABFFC2861ACE359C00136F78 /* 603564546.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 603564546.jpeg; sourceTree = "<group>"; };
 		ABFFC2871ACE359C00136F78 /* 6289891986.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6289891986.jpeg; sourceTree = "<group>"; };
-		ABFFC2881ACE359C00136F78 /* 926680527.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 926680527.jpeg; sourceTree = "<group>"; };
 		ABFFC2941ACE366500136F78 /* GLFListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFListData.h; sourceTree = "<group>"; };
 		ABFFC2951ACE366500136F78 /* GLFListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFListData.m; sourceTree = "<group>"; };
 		ABFFC2971ACE3FE300136F78 /* GLFListFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFListFrame.h; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 				ABFFC2851ACE359C00136F78 /* 4934348604.jpeg */,
 				ABFFC2861ACE359C00136F78 /* 603564546.jpeg */,
 				ABFFC2871ACE359C00136F78 /* 6289891986.jpeg */,
-				ABFFC2881ACE359C00136F78 /* 926680527.jpeg */,
+				AB9C07041AD38AA90046072B /* 926680527.jpg */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -275,8 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFFC2931ACE359C00136F78 /* 926680527.jpeg in Resources */,
 				ABFFC2901ACE359C00136F78 /* 4934348604.jpeg in Resources */,
+				AB9C07051AD38AA90046072B /* 926680527.jpg in Resources */,
 				ABFFC29D1ACE56F200136F78 /* statuses.plist in Resources */,
 				ABFFC28F1ACE359C00136F78 /* 3461756566.jpeg in Resources */,
 				ABFFC2891ACE359C00136F78 /* 1.jpeg in Resources */,
