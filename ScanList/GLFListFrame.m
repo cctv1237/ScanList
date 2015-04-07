@@ -36,21 +36,20 @@
     self.iconFrame = CGRectMake(iconViewX, iconViewY, iconViewWidth, iconViewHeight);
     
     //set frame of name
-    
     //set size of name
     CGSize nameSize = [self sizeWithString:_listData.name font:NameFont textMaxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
     
     CGFloat nameViewWidth = nameSize.width;
     CGFloat nameViewHeight = nameSize.height;
-    CGFloat nameViewX = CGRectGetMidX(self.iconFrame) - nameViewWidth - padding;
-    CGFloat nameViewY = iconViewY - (iconViewHeight - nameViewHeight) * 0.5;
+    CGFloat nameViewX = CGRectGetMinX(self.iconFrame) - nameViewWidth - padding;
+    CGFloat nameViewY = iconViewY + (iconViewHeight - nameViewHeight) * 0.5;
     
     self.nameFrame = CGRectMake(nameViewX, nameViewY, nameViewWidth, nameViewHeight);
     
     //set size of vip
     CGFloat vipViewWidth = 14;
     CGFloat vipViewHeight = 14;
-    CGFloat vipViewX = CGRectGetMidX(self.nameFrame) - vipViewWidth - padding;
+    CGFloat vipViewX = CGRectGetMinX(self.nameFrame) - vipViewWidth - padding;
     CGFloat vipViewY = nameViewY;
     
     self.vipFrame = CGRectMake(vipViewX, vipViewY, vipViewWidth, vipViewHeight);
